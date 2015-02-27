@@ -34,8 +34,7 @@ public class SerialReceiver implements SerialPortEventListener {
      * @param protocol Output protocol to send messages to.
      */
     public SerialReceiver(String portNames[], OutputProtocol protocol) {
-    	this.PORT_NAMES = portNames;
-    	this.protocol = protocol;
+    	this(portNames, 9600, protocol);
     }
     
     /**
