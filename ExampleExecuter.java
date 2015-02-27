@@ -10,7 +10,6 @@ public class ExampleExecuter {
 				System.out.println(message);
 			}
 		});
-		receiver.initialize();
 	}
 
 }

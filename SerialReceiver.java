@@ -47,6 +47,8 @@ public class SerialReceiver implements SerialPortEventListener {
     	this.PORT_NAMES = portNames;
     	this.DATA_RATE = baudRate;
     	this.protocol = protocol;
+    	
+    	this.initialize();
     }
 
     public void initialize() {
